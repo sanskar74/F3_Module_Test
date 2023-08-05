@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+}
+.img{
+   
+    width: 40%;
+}
+#img{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: #575a85;
+}
+.section1{
+    background-color: #000000;
+    width: 50%;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#currip{
+    color: #b8bccc;
+}
+#liveip{
+    color: #ffffff;
+}
+.section2{
+    background-color: #575a85;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    justify-content: center;
+}
+#getstart{
+    width: 200px;
+    padding: 10px 50px;
+    background-color: #575a85;
+    color: #b8bccc;
+    border: 1px solid #b8bccc;
+    border-radius: 5px;
+    cursor: pointer;
+}

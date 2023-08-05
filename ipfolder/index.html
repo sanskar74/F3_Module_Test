@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section1">
+            <div class="ipaddress">
+                <h2 id="ipaddress">IP Address : <span id="ipadd" class="add"></span></h2></p>
+            </div>
+            <div class="ipinfo">
+                <p>Lat : <span id="lat" class="add"></span></p>
+                <p>City :  <span id="city" class="add"></span></p>
+                <p>Organisation :  <span id="organisation" class="add"></span></p>
+                <p>Long : <span id="long" class="add"></span></p>
+                <p>Region : <span id="region" class="add"></span></p>
+                <p>Hostname : <span id="hostname" class="add"></span></p>
+            </div>
+        </div>
+        <div class="section2">
+            <h2>Your Current Location</h2>
+         
+                <div id="map">
+
+                </div>
+            
+            
+        </div>
+        <div class="section3">
+            <h2>More Information About You</h2>
+            <div class="informations">
+                <p>Time Zone : <span id="timezone" class="add"></span></p>
+                <p>Date And Time : <span  id="datetime" class="add"></span> </p>
+                <p>Pincode : <span id="pincode" class="add"></span></p>
+                <p >Message : <span id="massage" class="add"></span></p>
+            </div>
+        </div>
+        <div class="section4">
+            <h2>Post Office Near You</h2>
+            <div class="searchbar">
+                <input type="search" placeholder="Search By Name" id="search">
+            </div>
+            <div id="postoffices">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
